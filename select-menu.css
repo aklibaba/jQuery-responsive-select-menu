@@ -1,0 +1,11 @@
+nav select {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+
+    nav ul { display: none; }
+
+    nav select { display: inline-block; }
+    
+}
